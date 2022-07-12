@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657659376833</updated>
-      <workItem from="1657659378068" duration="9578000" />
+      <workItem from="1657659378068" duration="9629000" />
     </task>
     <task id="LOCAL-00001" summary="первый комит">
       <created>1657660376093</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657669013461</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="выполненное домашнее задание_скорректировано">
+      <created>1657669246780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657669246780</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
