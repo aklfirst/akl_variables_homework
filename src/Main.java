@@ -39,19 +39,19 @@ public class Main {
         float sportBreakfastWeightKG = sportBreakfastWeightGR / 1000;
         System.out.println("Breakfast from Trainer is " + sportBreakfastWeightKG + " kg");
 
-        float weightToLose = 7000f;
-        float weightPerDayMin = 250f;
-        float weightPerDayMax = 500f;
-        float daysToLoseMax = weightToLose / weightPerDayMin;
-        float daysToLoseMin = weightToLose / weightPerDayMax;
-        float averageDaysToLoseWeight = (daysToLoseMax + daysToLoseMin)/2;
-        float alternativeAverageDaysToLoseWeight = weightToLose/((weightPerDayMax+weightPerDayMin)/2);
+        int weightToLose = 7000;
+        int weightPerDayMin = 250;
+        int weightPerDayMax = 500;
+        int daysToLoseMax = weightToLose / weightPerDayMin;
+        int daysToLoseMin = weightToLose / weightPerDayMax;
+        double averageDaysToLoseWeight = (daysToLoseMax + daysToLoseMin)/(2*1.0);
+        double alternativeAverageDaysToLoseWeight = weightToLose/((weightPerDayMax+weightPerDayMin)/(2*1.0));
         System.out.println("Maximum days to lose weight " + daysToLoseMax);
         System.out.println("Minimum days to lose weight " + daysToLoseMin);
         System.out.println("Average Days to lose weight is " + averageDaysToLoseWeight);
         System.out.println("If average weight loss 375 gr per day, the days to lose weight would be " + alternativeAverageDaysToLoseWeight);
 
-        float mashaSalaryCurrent = 67760f;
+        float mashaSalaryCurrent = 67760;
         float denisSalaryCurrent = 83690f;
         float kristinaSalaryCurrent = 76230f;
         float salaryIncrease = 0.1f;
